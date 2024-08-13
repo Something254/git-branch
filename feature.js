@@ -1,9 +1,4 @@
-// 1.Create a repo called git-branch.{DONE}
-// Create two branches named bug-fix and feature{DONE}
-// 2. Commit and push to github
-// 3. Inside your bug-fix branch write a conditional statement to check if a number is odd or even. commit and push.
-// 4. Inside the feature branch write a conditional statement to find the largest between two numbers. commit and push
-// 5. Create a pull request and merge both branches
+
 
 
 
@@ -17,3 +12,14 @@ if(number1 > number2){
     }
 
 
+
+
+
+const numbers = [2, 4, 16, 24];
+
+const smallest_number = Math.min(...numbers);
+const largest_number = Math.max(...numbers);
+
+
+console.log('Largest Value:', largest_number);
+console.log('Smallest Value:', smallest_number); 
